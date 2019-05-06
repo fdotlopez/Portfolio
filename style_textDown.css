@@ -1,0 +1,911 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    background-color: #fff;
+}
+
+header h1:first-of-type {
+    padding: 18.75px 0px 0px 18.75px;
+    font-weight: 700;
+}
+
+header h1 {
+    padding: 0px 0px 0px 18.75px;
+    font-size: 0.7em;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+header hgroup {
+    max-width: 510px;
+    margin: auto;
+}
+
+header nav {
+    margin: 37.5px auto;
+    max-width: 515px;
+    min-width: 300px;
+    line-height: 30px;
+}
+
+header nav ul {
+    padding: 0px 18.5px;
+    margin: auto;
+    -webkit-display: flex;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 10px 4px 4px 4px;
+    margin: 0px 5% 0px 0px;
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+header nav ul li h3 {
+    font-family: monospace;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.07rem;
+}
+
+header nav ul li h3:hover {
+    text-decoration: underline;
+}
+
+/* ----- Main ----- */
+
+main {
+    margin-top: 180px;
+}
+
+main h2, section h2 {
+    
+    text-align: left;
+    max-width: 490px;
+    font-size: 2.5em;
+    letter-spacing: 0.03em;
+    font-weight: 100;
+    margin: 0px auto 38px auto;
+    padding-left: 18.5px;
+    color: #3c3c3c;
+}
+
+main article div img {
+    margin: auto;
+    display: block;
+    height: 70vw;
+    max-width: 520px;
+    max-height: 330px;
+} 
+
+
+main article {
+    margin: 0px auto 75px auto;
+}
+
+article div:nth-child(1) {
+    margin: auto;
+    height: 70vw;
+    max-width: 520px;
+    max-height: 330px;
+    overflow: hidden;
+}
+
+article div:last-of-type {
+    padding: 18.37px;
+    max-width: 490px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+article div h4 {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: 700; 
+    margin: 18.37px auto 18.37px auto;
+}
+
+article div h5 {
+    max-width: 270px;
+    font-size: 0.82em;
+    font-weight: 700; 
+    letter-spacing: 0.06em;
+    margin-bottom: 18.75px;
+}
+
+article div p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+}
+
+article div h4 span {
+    display: block;
+}
+
+article div a {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display: block;
+    width: 90px;
+    margin: 28px 0px 0px 0px;
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 2% 15px;
+    box-sizing: border-box;
+    color: #222;
+    border: 1px solid #222;
+    -webkit-transition: all 0.2s ease-in-out;
+    -mz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+article div a:hover{
+    background-color: #222;
+    color: #fff;
+    font-weight: 300;
+}
+
+main article:nth-child(5) div a {
+    width: 100px;
+}
+
+main article:nth-child(2) div a {
+    width: 150px;
+}
+
+main article:nth-child(4) div a {
+    width: 114px;
+    text-decoration: line-through;
+    color: #222;
+}
+
+main article:nth-child(4) div a:hover {
+    width: 114px;
+    text-decoration: line-through;
+    color: #fff;
+}
+
+quote {
+    font-size: 0.7rem;
+}
+
+/* ----- Sobre Mí ----- */
+
+#sobre-mi {
+    margin: 0px auto 38px auto;
+    border-top: 1px solid #222;
+    padding: 18px 0px 38px 0px;
+    max-width: 520px;
+    box-sizing: border-box;
+}
+
+#sobre-mi h2 {
+    display: none;
+}
+
+#sobre-mi img {
+    display: none;
+}
+
+#sobre-mi h2 {
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+#aboutme {
+    margin: auto;
+    max-width: 520px;
+    padding: 18px 0px 0px 18.45px;
+    box-sizing: border-box;
+}
+
+section div:last-of-type p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    padding-right: 18px;
+}
+
+section div:nth-child(3) h3 {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: 500; 
+    margin: 18.37px auto;
+}
+
+section:nth-child(4) a:nth-child(1) {
+    font-family: 'Roboto Mono', monospace;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin: 0px auto 9px auto;
+    text-align: center;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-decoration-color: #fff;
+    font-weight: 500;
+    color: #222;
+    -webkit-transition: all 0.2s ease-in-out;
+    -mz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+section:nth-child(4) a:nth-child(1):hover {
+    background-color: #222;
+    color: #fff;
+    font-weight: 300;
+}
+
+section:last-of-type {
+    margin: 38px auto 0px auto;
+}
+
+section:last-of-type svg {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 38px auto 0px auto;
+    background-image: url(img/email.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ----- Contacto ------ */
+
+section form {
+    width: 80%;
+    max-width: 450px;
+    margin: 9px auto 38.45px auto;
+
+}
+
+section form label {
+    display: none;
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 100px;
+}
+
+section form input {
+    display: block;
+    float:none;
+    width: 100%;
+    height: 30px;
+    margin: 0px auto 18px auto;
+    letter-spacing: 0.08rem;
+    font-size: 0.83rem;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #3c3c3c;
+    font-family: monospace;
+       
+    -webkit-transition: all 0.2s ease-in-out;
+    -mz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+section form input:focus, section form input:active {
+    border-left: 5px solid #3c3c3c;
+}
+
+section form textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    letter-spacing: 0.08rem;
+    font-size: 0.83rem;
+    box-sizing: border-box;
+    border: 1px solid #3c3c3c;
+    margin: 0px auto 20px auto;
+    padding: 5px 0px 0px 5px;
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -mz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+section form textarea:focus, section form textarea:active {
+    border-left: 5px solid #3c3c3c;
+}
+
+#enviar {
+    display: block;
+    width: 90px;
+    margin: auto;
+    height: 30px;
+    line-height: 20px;
+    padding: 5px;
+    border: 1px solid #222;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: line-through;
+    font-size: 0.7rem;
+    color: #222;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+#mail-ok {
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+    width: 90px;
+    margin: auto;
+    height: 30px;
+    line-height: 20px;
+    padding: 1% 2%;
+    border: 1px solid #222;
+    background-color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #222;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mail-ok:hover {
+    background-color: #222;
+    color: #fff;
+    font-weight: 300;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}    
+
+@media screen and (min-width: 550px) {
+    
+    body {
+        padding-top: 18px;
+    }
+    
+    
+    header nav ul li a h3 {
+        font-size: 1.1rem;
+    }
+    
+    main h2, section h2 {
+        font-size: 3.1rem;
+    }
+    
+    main article div h4 {
+        font-size: 0.9rem
+    }
+    
+    main article div h5 {
+        font-size: 0.84rem
+    }
+    
+    main article div p {
+        font-size: 0.8rem
+    }
+    
+    section article {
+        width: 45%;
+        min-width: 122px;
+        height: 30vw;
+        max-height: 240px;
+        margin: 0px auto 0px auto;
+        background-color: #fafafa;
+        box-sizing: border-box;
+        padding: 2vw 3vw;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    
+    section article a h3 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color:#222;
+    }
+    
+    #aboutme h3 {
+        font-size: 1rem;
+    }
+    
+    #aboutme p {
+        font-size: 0.83rem;
+        color: #222;
+        letter-spacing: 0.09em;
+        margin-top: 5px;
+    }
+    
+    section form {
+        max-width: 440px;
+        margin: 9px auto 36.45px auto;
+    }
+
+    section form input {
+        display: block;
+        float: none;
+        width: 100%;
+        max-width: none;
+        height: 38px;
+        margin: 0px auto 20px auto;
+        font-size: 0.95rem;
+        box-sizing: border-box;
+        border: 1px solid #3c3c3c;
+        font-family: monospace;
+    }
+    
+    section form textarea {
+        width: 100%;
+    }
+    
+    #sobre-mi {
+        padding: 38px 0px 0px 0px;
+    }
+
+    #aboutme {
+        width: 80%;
+        max-width: 1366px;
+        margin: 0px auto 38px auto;
+        padding: 0px 0px 0px 0px;
+    }
+    
+}
+
+
+@media screen and (min-width: 820px) {
+    
+    body {  
+        padding-top: 38px;
+    }
+    
+    header {
+        width: 100%;
+        position: fixed;
+        height: 80px;
+        padding-left: 0px;
+        padding-bottom: 100px;
+    }
+    
+    #wrap {
+        width: 80%;
+        height: 80px;
+        margin: auto;
+        max-width: 1100px;
+    }
+    
+    header hgroup {
+        width: 48%;
+        margin: 10px auto auto auto;
+        float: left;
+    }
+    
+    header h1 {
+        padding: 0px 0px 0px 0px;
+        font-size: 0.7em;
+        font-weight: 400;
+        letter-spacing: 0.2em;
+    }
+    
+    header h1:first-of-type {
+        padding: 18.75px 0px 0px 0px;
+        font-weight: 700;
+    }
+
+    header nav {
+        width: 50%;
+        margin: 40px auto 0px auto;
+        float: right;
+        max-width: 1200px;
+    }
+    
+    header nav ul {
+        padding: 0px 18.5px;
+        margin: auto;
+        -webkit-display: flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    header nav ul li {
+        list-style: none;
+        padding: 10px 4px 0px 4px;
+        margin: 0px 0px 0px 7%;
+    }
+
+    header nav ul li a h3 {
+        font-family: 'Roboto mono', monospace;
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: 0.15em;
+        width: 85px;
+        max-width: none;
+    }
+    
+    main {
+        margin: auto;
+        max-width: 1366px;
+    }
+    
+    main h2, section h2 {
+        width: 80%;
+        max-width: 1366px;
+        font-size: 3.8em;
+        padding: 0px;
+        margin: 112px auto 75px auto;
+        box-sizing: border-box;
+        font-weight: 100;
+    }
+        
+    main article {
+        width: 80%;
+        max-width: 1366px;
+        overflow: visible;
+        margin: 0px auto 112px auto;
+        height: auto;
+        max-height: none;
+    }
+    
+    main article div:first-of-type {
+        width: 100%;
+        height: auto;
+        max-width: none;
+        max-height: none;
+        overflow: visible;
+        margin: 0px auto 0px auto;
+    }
+    
+    main article div:first-of-type img {
+        width: 100%;
+        height: auto;
+        max-width: none;
+        max-height: none;
+    }
+    
+    main article div:last-of-type {
+        margin: 0px;
+        padding: 18px 0px 0px 0px;
+    }
+        
+    
+    main article h4 {
+        font-size: 0.9rem;
+        letter-spacing: 0.2em;
+    }
+    
+    main article h5 {
+        width: 400px;
+        max-width: none;
+        font-size: 0.85rem;
+        letter-spacing: 0.2em;
+    }
+    
+    main article p {
+        font-size: 0.8rem;
+        letter-spacing: 0.2em;
+    }
+    
+    main article a {
+        width:120px;
+        font-size: 0.85rem;
+    }
+    
+    main article:nth-child(4) div a {
+        width: 150px;
+        max-width: none;
+        font-size: 0.85rem;
+    }
+    
+    main article:nth-child(4) div a:hover {
+        width: 150px;
+        max-width: none;
+        font-size: 0.85rem;
+    }
+    
+    main article:nth-child(5) div a {
+        width: 150px;
+        max-width: none;
+        font-size: 0.85rem;
+    }
+    
+    #aboutme h3 {
+        font-size: 0.9rem;
+        letter-spacing: 0.1em;
+    }
+    
+    #aboutme p {
+        font-size: 0.8rem;
+        letter-spacing: 0.2em;
+    }
+    
+    #sobre-mi {
+        height: auto;
+        max-width: 1366px;
+        margin: auto;
+    }
+    
+    #aboutme p, #aboutme h3 {
+        margin-left: 0px;
+        max-width: 450px;
+    }
+    
+        
+    section:last-of-type {
+        width: 80%;
+        max-width: 1092px;
+        margin: 18px auto 0px auto;
+    }
+    
+    section:nth-child(4) a:nth-child(1) {
+        font-family: 'Roboto Mono', monospace;
+        width: 240px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        margin: 0px 0px 9px 0px;
+        text-align: center;
+        border: 1px solid #222;
+        box-sizing: border-box;
+        font-size: 0.8em;
+        text-decoration: none;
+        text-decoration-color: #fff;
+        font-weight: 500;
+        color: #222;
+        -webkit-transition: all 0.2s ease-in-out;
+        -mz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+    section:nth-child(4) a:nth-child(1):hover {
+        background-color: #222;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    section:last-of-type p {
+        display: none;
+        text-align: left;
+        width: 200px;
+        margin: 0px 0px 0px 0px;
+        font-size: 0.85rem;
+        letter-spacing: 0.05em;
+        font-weight: 400;
+        color: #222;
+    }
+
+    section:last-of-type svg {
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin: 38px 0px 0px 0px;
+        background-image: url(img/email.svg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    section form {
+        width: 90%;
+        max-width: 720px;
+        margin: 9px 0px 38.45px 0px;
+
+    }
+
+    section form label {
+        display: none;
+        font-size: 0.7rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: 100px;
+    }
+
+    section form input {
+        display: block;
+        float:none;
+        width: 100%;
+        height: 40px;
+        margin: 0px auto 18px auto;
+        letter-spacing: 0.08rem;
+        font-size: 0.83rem;
+        padding-left: 5px;
+        box-sizing: border-box;
+        border: 1px solid #3c3c3c;
+        font-family: monospace;
+    }  
+    
+    #mail-ok {
+        display: block;
+        float: right;
+        height: 40px;
+        margin-bottom: 75px;
+    }
+    
+    footer {
+        margin-bottom: 75px;
+    }
+
+}
+
+@media screen and (min-width: 1520px) {
+    
+    body {
+        background-color: #fff;
+    }
+    
+    #wrap {
+        width: 96%;
+        margin: auto auto;
+        height: 80px;
+        max-width: 1166px;
+        padding-left: 0px;
+    }
+    
+    main h2, section h2 {
+        width: 100%;
+        max-width: 1166px;
+        font-size: 4.8em;
+        letter-spacing: 0.00rem;
+        padding: 0px 0px 0px 0px;
+        box-sizing: border-box;
+        font-weight: 100;
+    }
+    
+    main article {
+        width: 96%;
+        max-width: 1166px;
+        overflow: visible;
+        margin: 0px auto 112px auto;
+        height: auto;
+        max-height: none;
+    }
+    
+     header hgroup h1:first-of-type {
+        font-size: 0.9rem;
+        letter-spacing: 0.2em;
+    }
+    
+    header hgroup h1 {
+        font-size: 0.7rem;
+        letter-spacing: 0.2em;
+    }
+
+    header nav ul li a h3 {
+        width: 110px;
+        font-family: 'Roboto mono', monospace;
+        font-size: 0.83rem;
+        font-weight: 400;
+        letter-spacing: 0.2em;
+    }
+    
+    main article h4 {
+        font-size: 1rem;
+        letter-spacing: 0.2em;
+    }
+    
+    main article h5 {
+        width: 400px;
+        max-width: none;
+        font-size: 0.9rem;
+        letter-spacing: 0.2em;
+    }
+    
+    main article p {
+        font-size: 0.85rem;
+        letter-spacing: 0.2em;
+        font-weight: 400;
+    }
+    
+    main article a {
+        width: 120px;
+        font-size: 0.85rem;
+    }
+    
+    main article:nth-child(4) div a {
+        width: 150px;
+        max-width: none;
+        font-size: 0.85rem;
+    }
+    
+    main article:nth-child(5) div a {
+        width: 150px;
+        max-width: none;
+        font-size: 0.85rem;
+    }
+    
+    #sobre-mi {
+        margin: auto;
+        padding-left: 38px;
+    }
+    
+    #aboutme {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #aboutme h3 {
+        font-size: 1rem;
+        letter-spacing: 0.1em;
+    }
+    
+    #aboutme p {
+        font-size: 0.9rem;
+        letter-spacing: 0.2em;
+    }
+
+    #contactar {
+        width: 90%;
+        max-width: 1366px;
+        margin: auto;
+        padding: 0px 0px 0px 38px;
+        box-sizing: border-box;
+    }
+    
+    section:nth-child(4) a:nth-child(1) {
+        margin: 75px 0px 18px 0px;
+    }
+    
+    section:last-of-type svg {
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin: 75px 0px 0px 0px;
+        background-image: url(img/email.svg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+     section form {
+        width: 60%;
+        max-width: 720px;
+        min-width: 520px;
+        margin: 9px 0px 38.45px 0px;
+        padding-left: 0px;
+        overflow: visible;
+    }
+    
+     section form input {
+         margin-left: 0px;
+    }
+    
+    #mail-ok {
+        width: 120px;
+        height: 50px;
+        text-align: center;
+        padding: 
+    }
+
+    
+}

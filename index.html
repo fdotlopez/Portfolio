@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>#fran</title>
+	<link rel="stylesheet" href="style_textDown.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="scrolling.js" type="text/javascript"></script>
+    <script>
+        
+        $(document).ready(function() {
+            
+            animateAnchors("nav ul li a");
+
+                $(window).scroll(function() {
+                    
+                    var puntoScroll = $(window).scrollTop();  
+                    
+                    if($(window).innerWidth() <= 720) { 
+                        
+                                if(puntoScroll>=70) {
+                                    $("header").css({"position":"fixed","top":"-70px"});
+                                    
+                                } else {
+                                    $("header").css({"position":"absolute","top":"0px"});
+                                }  
+                    } else {
+                        
+                        $("header").css("position", "fixed");
+                        
+                    }
+                });
+        }); 
+        
+        $(window).resize(function() {
+
+                $(window).scroll(function() {
+                    
+                    var puntoScroll = $(window).scrollTop();  
+                    
+                    if($(window).innerWidth() <= 720) { 
+                        
+                                if(puntoScroll>=70) {
+                                    $("header").css({"position":"fixed","top":"-70px"});
+                                    
+                                } else {
+                                    $("header").css({"position":"absolute","top":"0px"});
+                                }  
+                    } else {
+                        
+                        $("header").css("position", "fixed");
+                        
+                    }
+                });
+        }); 
+        
+
+    </script>
+        
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700,100' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+        <header>
+        <div id="wrap">
+            <hgroup>
+                <h1>fran</h1>
+                <h1>Web Designer, Front-End Developer</h1>
+                <h1>Audiovisual Interactive</h1>
+            </hgroup>
+            <nav>
+                <ul>
+                    <li><a href="#proyectos"><h3 id="firsth3">Proyectos</h3></a></li>
+                    <li><a href="#sobre-mi"><h3 id="secondh3">Sobre Mí</h3></a></li>
+                    <li><a href="#contactar"><h3 id="thirdh3">Contacto</h3></a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+        <main id="proyectos">
+            <h2>Proyectos</h2>
+            <article>
+                <div>
+                    <img id="project1" src="img/img-mobile-x2/tofona@2.jpg" alt="La Tòfona Website"/>
+                </div>
+                <div>
+                    <h4>La Tòfona</h4>
+                    <h5>Rol: Arquitectura de la Información y Diseño Visual | <span>Desarrollo en Construcción</span></h5>
+                    <p>Proyecto realizado para La Tòfona Produccions, productora audiovisual creada en Barcelona por jóvenes estudiantes.<br><br>
+    En vías de desarrollo. Maqueta realizada pensando en multidispositivo (Responsive Design).
+    </p>
+                    <a href="http://www.latofona.tv/0/" target="_blank">Ver Maqueta</a>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img id="project2" src="img/img-mobile-x2/marisa@2.jpg" alt="Marisa Roca Mezzosoprano Website"/>
+                </div>
+                <div>
+                    <h4>Marisa  Roca<span>Mezzosoprano</span></h4>
+                    <h5>Rol: Arquitectura, Diseño y Desarrollo Front-end</h5>
+                    <p>Esta web está diseñada y desarrollada para la cantante de ópera y profesora Marisa Roca. Se destaca en el diseño la doble vida laboral de la mezzosoprano.<br><br>
+    Se diseña y desarrolla para los diferentes dispositivos, adaptando los diferentes reproductores que tiene la página.
+    </p>
+                    <a href="http://marisarocamezzosoprano.cat" target="_blank">Ver Web</a>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img id="project3" src="img/img-mobile-x2/calendario@2.jpg" alt="Calendario: Wordpress Plugin"/>
+                </div>
+                <div>
+                    <h4>Calendario para Wordpress</h4>
+                    <h5>Rol: Arquitectura, Diseño y Desarrollo Front-end</h5>
+                    <p>Proyecto que nace a partir de la necesidad de registrar las demandas de los clientes de un servicio de alojamiento rural. A partir de aquí se diseña y desarrolla un calendario interactivo que pueda guardar las peticiones de los clientes interesados.<br><br>
+    Este calendario se debía aplicar en una plantilla Wordpress. Por ello responde a una estructura de widget lateral. Adaptable para todo los dispositivos.
+    </p>
+                    <a id="plug" href="">Ver Plug-in</a>
+                    <quote>En construcción</quote>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img id="project4" src="img/img-mobile-x2/circles@2.jpg" alt="Audiovisual Interactivo: Vídeo"/>
+                </div>
+                <div>
+                    <h4>Audiovisual Interactive</h4>
+                    <h5>Rol: Diseño visual, Diseño y producción sonora, animación y sincronización</h5>
+                    <p>Graphic Motion producido como video introducción de una productora audiovisual. Para este vídeo se han creado los recursos visuales como sonoros.<br><br>
+    El concepto principal es sincronizar los elementos visuales con el audio para producir la sinestesia en el espectador.
+    </p>
+                    <a href="https://vimeo.com/79089999" target="_blank">Ver Vídeo</a>
+                </div>
+            </article>
+        </main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <img src="img/me.jpg" alt="fran">
+            <div id="aboutme">
+                <h3>Sobre Mí.</h3>
+                <p>Estudiante de Medios Audiovisuales, especializado en diseño web, diseño interactivo y desarrollador de front-end. Encaro mi carrera profesional desde la rama creativa del diseño para generar productos, además de funcionales, capaces de sumergir al usuario en la interacción con el dispositivo.<br><br>
+    Además de responder a proyectos relacionados directamente con las necesidades de las personas, investigo y genero contenido con fines artísticos. Siempre mirando con una perspectiva interactiva, trabajo estímulos sonoros y visuales con el objetivo de lograr esta inmersión en el espectador.
+    </p>
+            </div>
+        </section>
+        <section id="contactar">
+            <a href="https://es.linkedin.com/in/franlopezcarrasco" target="_blank">Ver perfil de LinkedIn</a>
+            <svg></svg>
+            <form action="contacto.php" method="post">
+                <label for="nombre"></label>
+                <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+                <label for="email"></label>
+                <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+                <label for="mensaje"></label>
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=””></textarea>
+                <input id="mail-ok" type="submit" name="submit" value="Enviar"/>
+            </form>
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>
